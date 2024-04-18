@@ -9,6 +9,10 @@ footer {
     justify-content: center;
 }
 
+.div-footer a:hover {
+    text-decoration: underline;
+}
+
 .div-footer div {
     margin-left: 15px;
     font-size: 12px;
