@@ -1,0 +1,23 @@
+.div-phonebox {
+    display: flex;
+    width: 420px;
+    margin-right: 50px;
+}
+
+.phone-pic {
+    width: 540px;
+}
+
+.stories {
+    position: relative;
+    left: -310px;
+    top: 28px;
+    height: 540px;
+    width: 540px;
+}
+
+@media (max-width: 875px) {
+    .div-phonebox {
+        display: none;
+    }
+}
