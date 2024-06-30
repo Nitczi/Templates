@@ -1,0 +1,25 @@
+:root {
+    --font-site: 'DINRoundPro', sans-serif;
+    --font-site-weight: 700;
+
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    padding: 30px 30px 0px 30px;
+    background-color: rgb(19, 31, 36);
+    margin: 0;
+    height: 80%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+

@@ -1,0 +1,234 @@
+#enter {
+    color: rgb(241, 247, 251);
+    font-family: var(--font-site);
+    font-weight: var(--font-site-weight);
+    font-size: 26px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.over {
+    height: 100%;
+}
+
+.container-enter {
+    display: flex;
+    justify-content: center;
+}
+
+#containter-login{
+    display: flex;
+    justify-content: center;
+}
+
+.div-email,
+.div-password {
+    background-color: rgb(32, 47, 54);
+    border: 2px solid rgb(55, 70, 79);
+    border-radius: 12px;
+    margin-top: 20px;
+}
+
+.div-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.email {
+    width: 343px;
+    height: 25px;
+}
+
+.email,
+.password {
+    color: rgb(241, 247, 251);
+
+    font-family: var(--font-site);
+    font-weight: 500;
+
+    background-color: inherit;
+    border: none;
+    font-size: 20px;
+    align-items: center;
+    
+    height: 28px;
+    padding: 8px 14px;
+    border-radius: 12px;
+    
+}
+
+.email::placeholder,
+.password::placeholder {
+    color: rgb(241, 247, 251);
+    align-items: center;
+}
+
+.email:focus,
+.password:focus {
+    outline: none;
+    border-color: rgb(73, 192, 248);
+}
+
+
+.forget-pass {
+    text-decoration: none;
+    color: rgb(82, 101, 109);
+    font-family: var(--font-site);
+    font-weight: 700;
+    font-size: 15px; 
+    margin-right: 14px;
+}
+
+.forget-pass:hover {
+    color: rgb(220, 230, 236);
+}
+
+.container-btt {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.enter-btt {
+    width: 375px;
+    height: 47px;
+    margin-bottom: 20px;
+
+    font-family: var(--font-site);
+    font-weight: 700;
+    font-size: 15px;
+    background-color: rgb(73, 192, 248);
+    color: rgb(19, 31, 36);
+
+    border-radius: 16px;
+    border: none;
+    box-shadow: rgb(24, 153, 214) 0px 4px 0px 0px;
+    cursor: pointer;
+}
+
+.enter-btt:hover {
+    background-color: rgb(80 211 255);
+}
+
+.enter-btt:active {
+    transform: translateY(4px);
+    box-shadow: rgb(24, 153, 214) 0px 0px 0px 0px
+}
+
+.div-or {
+    display: flex;
+    justify-content: center;
+
+    color: rgb(82, 101, 109);
+    font-family: var(--font-site);
+    font-weight: var(--font-site-weight);
+}
+
+.div-or::before {
+    content: "";
+    border-bottom: 2.5px solid rgb(55, 70, 79);
+    width: 169px;
+    margin: 4px 10px;
+    transform: translateY(-5px);
+}
+
+.div-or::after {
+    content: "";
+    border-bottom: 2.5px solid rgb(55, 70, 79);
+    width: 169px;
+    margin: 4px 10px;
+    transform: translateY(-5px);
+}
+
+.container-other-forms {
+    display: flex;
+    justify-content: space-around;
+}
+
+.facebook-btt {
+    color: rgb(59, 89, 152);
+}
+
+.google-btt {
+    color: rgb(66, 133, 244);
+    
+}
+
+.facebook-btt,
+.google-btt {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    width: 180px;
+    height: 45px;
+    padding: 0px 40px;
+    border-radius: 16px;
+    margin-top: 16px;
+
+    font-family: var(--font-site);
+    font-weight: var(--font-site-weight);
+    font-size: 15px;
+
+    background-color: rgb(19, 31, 36);
+    border-style: solid;
+    border-top-width: 2px;
+    border-right-width: 2px;
+    border-bottom-width: 2px;
+    border-left-width: 2px;
+    border-color: rgb(55, 70, 79);
+    box-shadow: rgb(55, 70, 79) 0px 2px 0px 0px;
+    cursor: pointer;
+}
+
+.facebook-btt:hover,
+.google-btt:hover {
+    background-color: rgb(17 28 32);
+}
+
+.facebook-btt:active,
+.google-btt:active {
+    transform: translateY(2px);
+    box-shadow: rgb(55, 70, 79) 0px 0px 0px 0px;
+}
+
+
+#container-bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 10px;
+
+    width: 375px;
+
+    color: rgb(82, 101, 109);
+    font-family: var(--font-site);
+    font-size: 14px;
+    font-weight: 500;
+}
+
+
+
+.div-terms,
+.div-recaptcha {
+    width: auto;
+    text-align: center;
+}
+
+.div-terms {
+    margin-bottom: 20px;
+}
+
+.div-recaptcha {
+    font-stretch: 100%;
+    line-height: 20px;
+}
+
+#container-bottom a {
+    color: inherit;
+    text-decoration: none;
+    font-weight: 900;
+    cursor: pointer;
+}
