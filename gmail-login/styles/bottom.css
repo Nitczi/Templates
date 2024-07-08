@@ -1,0 +1,72 @@
+#bottom-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 16px;
+    font-size: 13px;
+
+}
+
+.select-languages {
+    position: relative;
+}
+
+.select-languages::before {
+    border-radius: 11px;
+    content: "";
+    opacity: 0;
+    pointer-events: none;
+    background-color: rgb(31 31 31);
+    position: absolute;
+    top: -5px;
+    right: -16px;
+    bottom: -5px;
+    left: -8px;
+    z-index: -1;
+}
+
+.select-languages:hover::before {
+    opacity: 0.07;
+}
+
+#lang {
+    border: none;
+    padding: 5px;
+    color: rgb(31, 31, 31);
+    background-color: inherit;
+    position: relative;
+    appearance: none;
+}
+
+#lang:focus {
+    outline-color: rgb(11, 87, 208);
+}
+
+.div-law {
+    width: 225px;
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.div-law a {
+    color: rgb(31, 31, 31);
+    position: relative;
+}
+
+.div-law a::before {
+    border-radius: 10px;
+    content: "";
+    opacity: 0;
+    pointer-events: none;
+    background-color: rgb(31 31 31);
+    position: absolute;
+    top: -10px;
+    right: -16px;
+    bottom: -1px;
+    left: -16px;
+    z-index: -1;
+}
+
+.div-law a:hover::before {
+    opacity: 0.08;
+}
